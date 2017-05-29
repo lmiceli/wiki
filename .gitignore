@@ -1,0 +1,35 @@
+.AndroidStudio*/
+.android/
+.bash_history
+.bash_profile
+.config/
+.crashlytics/
+.emulator_console_auth_token
+.git-templates/
+.gitconfig
+.gradle/
+.lesshst
+.minttyrc
+.viminfo
+AndroidStudioProjects/
+AppData/
+Contacts/
+DEV/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Google Drive/
+IntelGraphicsProfiles/
+Links/
+Music/
+NTUSER.DAT*
+NTUSER.DAT
+OneDrive/
+Pictures/
+Saved Games/
+Searches/
+Videos/
+diff*
+ntuser.*
+tmp*

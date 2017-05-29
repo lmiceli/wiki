@@ -1,0 +1,3 @@
+cd "AndroidStudioProjects/inditex-core"
+
+
