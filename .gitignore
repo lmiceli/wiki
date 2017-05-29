@@ -6,7 +6,6 @@
 .crashlytics/
 .emulator_console_auth_token
 .git-templates/
-.gitconfig
 .gradle/
 .lesshst
 .minttyrc

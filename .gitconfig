@@ -1,0 +1,136 @@
+[user]
+	name = leonardo.miceli
+	email = leonardo.miceli@s-dos.es
+[core]
+	preloadindex = true
+	fscache = true
+	hooksPath = ~/.git-templates
+[gc]
+	auto = 256
+
+[alias]	
+    ll = log --graph --all --pretty=format:'%C(yellow)%h%C(cyan)%d%Creset %s %C(white)- %an, %ar%Creset'
+
+    # one-line log
+    l = log --pretty=format:"%C(#b6b649)%h\\ %ad%C(#f5236c)%d\\ %Creset%s%C(#0383f5)\\ [%cn]" --decorate --date=short
+
+    a = add
+	aa = add -A
+    ap = add -p
+    c = commit --verbose
+    ca = commit -a --verbose
+    cm = commit -m
+    cam = commit -a -m
+    m = commit --amend --verbose
+
+    d = diff
+    ds = diff --stat
+    dc = diff --cached
+
+    s = status
+	ss = status -s
+    co = checkout
+    cob = checkout -b
+    # list branches sorted by last modified
+    b = "!git for-each-ref --sort='-authordate' --format='%(authordate)%09%(objectname:short)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
+
+    # list aliases
+    la = "!git config -l | grep alias | cut -c 7-"
+    
+    # Get the current branch name (not so useful in itself, but used in
+    # other aliases)
+    branch-name = "!git rev-parse --abbrev-ref HEAD"
+    # Push the current branch to the remote "origin", and set it to track
+    # the upstream branch
+    publish = "!git push -u origin $(git branch-name)"
+    # Delete the remote version of the current branch
+    unpublish = "!git push origin :$(git branch-name)"
+    
+    # Working with files
+    #
+
+    # Unstage any files that have been added to the staging area
+    unstage = reset HEAD
+    # Show changes that have been staged
+    diffc = diff --cached
+
+    # Mark a file as "assume unchanged", which means that Git will treat it
+    # as though there are no changes to it even if there are. Useful for
+    # temporary changes to tracked files
+    assume = update-index --assume-unchanged
+    # Reverse the above
+    unassume = update-index --no-assume-unchanged
+    # Show the files that are currently assume-unchanged
+    assumed = "!git ls-files -v | grep ^h | cut -c 3-"	
+	
+# With this new branch, I can start writing the crazy codes. As I go along, I try and commit regularly with my cm alias.
+    cm = !git add -A && git commit -m
+# For example, git cm "Making stuff work". This adds all changes including untracked files to the index and then creates a commit with the message “Making Stuff Work”.
+# Sometimes, I just want to save my work in a commit without having to think of a commit message. I could stash it, but I prefer to write a proper commit which I will change later.
+# git save or git wip. The first one adds all changes including untracked files and creates a commit. The second one only commits tracked changes. I generally use the first one.
+    save = !git add -A && git commit -m 'SAVEPOINT'
+    wip = commit -am "WIP" 
+# When I return to work, I’ll just use git undo which resets the previous commit, but keeps all the changes from that commit in the working directory.
+    undo = reset HEAD~1 --mixed
+# Or, if I merely need to modify the previous commit, I’ll use git amend
+    amend = commit -a --amend
+# The -a adds any modifications and deletions of existing files to the commit but ignores brand new files. The --amend launches your default commit editor (Notepad in my case) and lets you change the commit message of the most recent commit.
+
+# A proper reset
+# There will be times when you explore a promising idea in code and it turns out to be crap. You just want to throw your hands up in disgust and burn all the work in your working directory to the ground and start over.
+# In an attempt to be helpful, people might recommend: git reset HEAD --hard.
+# Slap those people in the face. It’s a bad idea. Don’t do it!
+# That’s basically a delete of your current changes without any undo. As soon as you run that command, Murphy’s Law dictates you’ll suddenly remember there was that one gem among the refuse you don’t want to rewrite.
+# Too bad. If you reset work that you never committed it is gone for good. Hence, the wipe alias.
+    wipe = !git add -A && git commit -qm 'WIPE SAVEPOINT' && git reset HEAD~1 --hard
+# This commits everything in my working directory and then does a hard reset to remove that commit. The nice thing is, the commit is still there, but it’s just unreachable. Unreachable commits are a bit inconvenient to restore, but at least they are still there. You can run the git reflog command and find the SHA of the commit if you realize later that you made a mistake with the reset. The commit message will be “WIPE SAVEPOINT” in this case.
+
+
+## http://haacked.com/archive/2014/07/28/github-flow-aliases/
+# later
+#bclean = "!f() { git branch --merged ${1-development} | grep -v " ${1-development}$" | xargs -r git branch -d; }; f"
+#bdone = "!f() { git checkout ${1-development} && git up && git bclean ${1-development}; }; f"
+	
+	
+[init]
+	templatedir = C:/Users/leonardo.miceli/.git-templates
+
+# color {{{
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = red reverse
+    local = blue
+    remote = green
+
+[color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red bold
+    new = green
+    plain = white
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+# }}}
+# push/pull/diff/options {{{
+[push]
+    default = current
+[pull]
+    default = current
+[diff]
+    mnemonicprefix = true
+[branch]
+    autosetuprebase = always
+[apply]
+    whitespace = nowarn
+
+#}}}
+	
+	
