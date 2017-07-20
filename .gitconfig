@@ -63,9 +63,6 @@
     # Show the files that are currently assume-unchanged
     assumed = "!git ls-files -v | grep ^h | cut -c 3-"	
 
-    # lists the most recently worked on branches from top to bottom
-    latest-branches = for-each-ref --sort=-committerdate refs/heads/
-
 # With this new branch, I can start writing the crazy codes. As I go along, I try and commit regularly with my cm alias.
     cm = !git add -A && git commit -m
 # For example, git cm "Making stuff work". This adds all changes including untracked files to the index and then creates a commit with the message “Making Stuff Work”.
@@ -105,8 +102,8 @@
     status = auto
 
 [color "branch"]
-    current = red reverse
-    local = blue
+    current = white 
+    local = cyan
     remote = green
 
 [color "diff"]
