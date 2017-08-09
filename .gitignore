@@ -11,6 +11,8 @@
 .minttyrc
 .viminfo
 repositories/
+.ssh/
+bak_lmiceli
 AndroidStudioProjects/
 AppData/
 Contacts/

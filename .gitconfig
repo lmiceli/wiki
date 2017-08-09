@@ -4,7 +4,7 @@
 [core]
 	preloadindex = true
 	fscache = true
-	hooksPath = ~/.git-templates
+	hooksPath = ~/.githooks
 [gc]
 	auto = 256
 
