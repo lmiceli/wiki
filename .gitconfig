@@ -13,6 +13,8 @@
 
     # one-line log
     l = log --pretty=format:"%C(#b6b649)%h\\ %ad%C(#f5236c)%d\\ %Creset%s%C(#0383f5)\\ [%cn]" --decorate --date=short
+    # one-line log --topo-order
+    lt = log --pretty=format:"%C(#b6b649)%h\\ %ad%C(#f5236c)%d\\ %Creset%s%C(#0383f5)\\ [%cn]" --decorate --date=short --topo-order
 
     a = add
 	aa = add -A
@@ -134,3 +136,7 @@
 #}}}
 	
 	
+[rerere]
+	enabled = true
+[http]
+	sslVerify = false
