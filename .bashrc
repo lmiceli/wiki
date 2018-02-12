@@ -18,3 +18,13 @@ alias _clone_core='cd ~/repositories/sdos/core-clone'
 alias _inditex_core='cd ~/repositories/sdos/core/'
 alias _tasknotes='cd ~/Google\ Drive/work/ITX/Tasknotes/'
 alias open='explorer'
+
+# GIT
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gl="git log"
+alias gd="git diff"
+alias gb="git branch"
+alias gr="git reset"
