@@ -5,6 +5,7 @@
 	preloadindex = true
 	fscache = true
 	hooksPath = ~/.githooks
+	editor = 'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin
 [gc]
 	auto = 256
 
@@ -13,6 +14,8 @@
 
     # one-line log
     l = log --pretty=format:"%C(#b6b649)%h\\ %ad%C(#f5236c)%d\\ %Creset%s%C(#0383f5)\\ [%cn]" --decorate --date=short
+    # one-line log con hora
+    lh = log --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%aN%Cgreen%d %Creset%s' --date=format:'%Y-%m-%d %H:%M:%S'
     # one-line log --topo-order
     lt = log --pretty=format:"%C(#b6b649)%h\\ %ad%C(#f5236c)%d\\ %Creset%s%C(#0383f5)\\ [%cn]" --decorate --date=short --topo-order
 
@@ -24,6 +27,7 @@
     #cm = commit -m
     cam = commit -a -m
     m = commit --amend --verbose
+	cp = cherry-pick
 
     d = diff
     ds = diff --stat
