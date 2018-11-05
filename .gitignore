@@ -38,3 +38,36 @@ tmp*
 .tooling
 .vscode
 3D Objects/desktop.ini
+- Copy.bashrc
+- Copy.gitconfig
+.IdeaIC2016.2/
+.VirtualBox/
+.WebStorm2016.3/
+.atom/
+.babel.json
+.counterplay/
+.eclipse/
+.jmc/
+.m2/
+.nbi/
+.node_repl_history
+.oracle_jre_usage/
+.ssh/
+.sts/
+.tooling/
+.vscode/
+Application Data/
+Cookies/
+IdeaProjects/
+Intel.sav/
+Intel/
+Local Settings/
+My Documents/
+Recent/
+SendTo/
+Start Menu/
+Tracing/
+VirtualBox VMs/
+dev - Shortcut.lnk
+file1
+scripts/
