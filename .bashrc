@@ -9,11 +9,9 @@ alias release_std='./gradlew assembleStradivariusRelease'
 alias _activ="adb shell dumpsys activity activities | grep mFocusedActivity | cut -d ' ' -f 6 | grep -o '[^.]*$'"
 alias _paused='adb shell dumpsys activity activities | grep PausedActivity'
 
-<<<<<<< HEAD
 # alias glltmp='git log --pretty=format:"%H %ad [%an] %s" --decorate --date=short'
 #export PATH="$PATH:/c/Users/leonardo.miceli/AppData/Local/Programs/Python/Python36-32/"
 #export PATH="$PATH:/c/apache-ant-1.10.1/bin"
-=======
 #! /bin/bash
 
 # some randon guy
@@ -113,7 +111,7 @@ alias glltmp='git log --pretty=format:"%H %ad [%an] %s" --decorate --date=short'
 
 export PATH="$PATH:/c/Users/leonardo.miceli/AppData/Local/Programs/Python/Python36-32/"
 export PATH="$PATH:/c/apache-ant-1.10.1/bin"
->>>>>>> 9308a8b661ef9d38343dc0ccb634a4c36d1a2737
+
 
 alias _clone_core='cd ~/repositories/sdos/core-clone'
 alias _inditex_core='cd ~/repositories/sdos/core/'
