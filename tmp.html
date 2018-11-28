@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <style>
+      body {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      main {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        margin-top: 20px;
+      }
+    </style>
+    <title>Test App Vars</title>
+  </head>
+  <body onload="onLoad();">
+    <main>
+      <p>Content: </p>
+      <div id="content">
+        
+      </div>
+      <p>Content onload: </p>
+      <div id="content-onload">
+        
+      </div>
+    </main>
+    <script type="text/javascript">
+      // var inditex = {};
+      // var clientId = "prueba clientId";
+      // inditex.clientId = "prueba inditex.clientId";
+      // inditex.iUserJSON = {"cosa":"cosa1"};
+      // var gender = "prueba gender";
+      // inditex.gender = "prueba inditex.gender";
+      // inditex.iAppId = "prueba inditex.iAppId";
+      // inditex.iStoreJSON = "prueba inditex.iStoreJSON";
+      // inditex.iCategoryTreeJSON = "prueba inditex.iCategoryTreeJSON";
+      // inditex.iCategoryTreeJSON = "prueba inditex.iCategoryTreeJSON";
+      // ItxApp >>>>>>>>>>>>
+      // var ItxApp = {};
+      // var clientId = "prueba clientId";
+      // ItxApp.clientId = "prueba ItxApp.clientId";
+      // ItxApp.iUserJSON = {"cosa":"cosa1"};
+      // var gender = "prueba gender";
+      // ItxApp.gender = "prueba ItxApp.gender";
+      // ItxApp.iAppId = "prueba ItxApp.iAppId";
+      // ItxApp.iStoreJSON = "prueba ItxApp.iStoreJSON";
+      // ItxApp.iCategoryTreeJSON = "prueba ItxApp.iCategoryTreeJSON";
+      // ItxApp.iCategoryTreeJSON = "prueba ItxApp.iCategoryTreeJSON";
+
+      function checkVar (vartocheck) {
+        if (!vartocheck || vartocheck == null || vartocheck == "null" || vartocheck == false || vartocheck == "false" || vartocheck == undefined || vartocheck == "undefined" || vartocheck === null || vartocheck === "null" || vartocheck === false || vartocheck === "false" || vartocheck === undefined || vartocheck === "undefined")
+          return "no definida";
+        try {
+          if (typeof vartocheck == "string")
+            vartocheck = JSON.parse(vartocheck);
+          if (typeof vartocheck == "object")
+            vartocheck = JSON.stringify(vartocheck);
+        } catch (err) {
+          console.log("erro parsing")
+        }
+        return vartocheck;
+      }
+      function checkExist(elId) {
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "clientId: " + checkVar(clientId) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "clientId: no definida<br/>";
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.clientId: " + checkVar(inditex.clientId) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.clientId: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iUserJSON: " + checkVar(inditex.iUserJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iUserJSON: no definida<br/>" ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "gender: " + checkVar(gender) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "gender: no definida<br/>";
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.gender: " + checkVar(inditex.gender) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.gender: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iAppId: " + checkVar(inditex.iAppId) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iAppId: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iStoreJSON: " + checkVar(inditex.iStoreJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iStoreJSON: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iCategoryTreeJSON: " + checkVar(inditex.iCategoryTreeJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "inditex.iCategoryTreeJSON: no definida<br/>" ;
+        }
+
+
+
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "clientId: " + checkVar(clientId) + "<br/><br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "clientId: no definida<br/><br/>";
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.clientId: " + checkVar(ItxApp.clientId) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.clientId: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iUserJSON: " + checkVar(ItxApp.iUserJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iUserJSON: no definida<br/>" ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "gender: " + checkVar(gender) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "gender: no definida<br/>";
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.gender: " + checkVar(ItxApp.gender) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.gender: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iAppId: " + checkVar(ItxApp.iAppId) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iAppId: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iStoreJSON: " + checkVar(ItxApp.iStoreJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iStoreJSON: no definida<br/>"  ;
+        }
+        try{
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iCategoryTreeJSON: " + checkVar(ItxApp.iCategoryTreeJSON) + "<br/>";
+        }
+        catch (err) {
+          document.getElementById(elId).innerHTML = document.getElementById(elId).innerHTML + "ItxApp.iCategoryTreeJSON: no definida<br/>" ;
+        }
+      }
+      function onLoad() {
+        
+        console.log("onLoad >>>>>>");
+        
+        function lala(){
+          console.log("after delay >>>>>>");
+          checkExist("content-onload");
+        }
+        
+        setTimeout(lala, 200);
+     
+      }
+      console.log("content >>>>>");
+      checkExist("content");
+    </script>
+  </body>
+</html>
