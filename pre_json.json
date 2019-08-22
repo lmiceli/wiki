@@ -1,0 +1,5146 @@
+{
+segments: [
+{
+id: "171",
+criteria: null,
+priority: 10000,
+content: {
+layout: {
+id: "1",
+type: "full-width",
+children: [
+{
+id: "530a890b-0304-446f-b7e1-9644114a4cbe",
+name: "Sección 1",
+type: "flex",
+children: [
+{
+id: "a51f696b-4917-49c7-afd9-668399fe26d8",
+name: "Pieza 4 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "78s6l",
+text: "Collection",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 10,
+style: "FONT-SIZE-BIG"
+},
+{
+offset: 0,
+length: 10,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "5urtq",
+text: "Descubra los nuevos artículos",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 29,
+style: "TEXT-COLOR-rgb(117,117,117)"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "32pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "24336e16-2d18-49c2-b0a3-61a4cd31c9ab",
+name: "Sección 2",
+type: "flex",
+children: [
+{
+id: "ebfd9f08-9b8c-4592-9796-dbbcfd4f0ef3",
+name: "Pieza 5 - Carrusel de categorías",
+type: "category-slider",
+metadata: {
+children: { }
+},
+numberOfColumns: 2.5,
+spaceBetweenElements: "8pt",
+initialOffset: "16pt",
+callToActionText: null,
+viewAllCategoryId: "1864545",
+views: [
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1607006"
+},
+text: {
+blocks: [
+{
+key: "shkd",
+text: "Nuevo",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 5,
+style: "ITALIC"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "3ch24",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-new-z.jpg",
+timestamp: "1566491811231",
+width: 840,
+height: 1120
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-new-z.jpg",
+timestamp: "1566491811231",
+width: 840,
+height: 1120
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-new-z.jpg",
+timestamp: "1566491811231",
+width: 840,
+height: 1120
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "911139"
+},
+text: {
+blocks: [
+{
+key: "1lutt",
+text: "Camisas Casual",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shirts-z.jpg",
+timestamp: "1566491811232",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shirts-z.jpg",
+timestamp: "1566491811232",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shirts-z.jpg",
+timestamp: "1566491811232",
+width: 480,
+height: 640
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "911166"
+},
+text: {
+blocks: [
+{
+key: "dau2d",
+text: "Pantalones",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesTrousersZ_1.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesTrousersZ_1.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesTrousersZ_1.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "911160"
+},
+text: {
+blocks: [
+{
+key: "cn840",
+text: "Polos",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-polos-z.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-polos-z.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-polos-z.jpg",
+timestamp: "1566491811233",
+width: 480,
+height: 640
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1887025"
+},
+text: {
+blocks: [
+{
+key: "e2qmv",
+text: "Zapatos",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shoes-z.jpg",
+timestamp: "1566491811234",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shoes-z.jpg",
+timestamp: "1566491811234",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-shoes-z.jpg",
+timestamp: "1566491811234",
+width: 480,
+height: 640
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "911154"
+},
+text: {
+blocks: [
+{
+key: "2n142",
+text: "Jerséis",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesJumpersZ_3.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesJumpersZ_3.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categoriesJumpersZ_3.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1887021"
+},
+text: {
+blocks: [
+{
+key: "aa983",
+text: "Chaquetas",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-jackets-z.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-jackets-z.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/categories-jackets-z.jpg",
+timestamp: "1566491811235",
+width: 480,
+height: 640
+}
+}
+],
+styles: { },
+internalType: "piece-category-slider",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "16pt",
+marginLeft: "0pt",
+marginBottom: "16pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "5818a33c-e983-45d8-a259-0bb55cf5547e",
+name: "Sección 3",
+type: "flex",
+children: [
+{
+id: "1751bd26-595d-41d5-8755-3c94bc29793b",
+name: "Pieza 3 - Carrusel",
+type: "slider",
+slides: [
+{
+type: "video",
+provider: "own",
+autoPlay: true,
+link: {
+type: "videoLink",
+path: "http://techslides.com/demos/sample-videos/small.mp4"
+},
+coverText: null,
+loop: true,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+buttons: [ ],
+url: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ComingSoonCampaign4-z.mp4",
+title: null,
+alt: null,
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ComingSoonCampaign-z.jpg",
+timestamp: "1566491811235",
+width: 1200,
+height: 800
+},
+landscapePosterImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ComingSoonCampaign-z.jpg",
+timestamp: "1566491811235",
+width: 1200,
+height: 800
+},
+portraitPosterImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ComingSoonCampaign-z.jpg",
+timestamp: "1566491811235",
+width: 1200,
+height: 800
+}
+},
+{
+type: "image",
+metadata: { },
+link: {
+type: "categoryLink",
+categoryId: "1898513"
+},
+text: {
+blocks: [
+{
+key: "al2gi",
+text: "",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "cpf4a",
+text: "A Line Break",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 12,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 12,
+style: "FONT-SIZE-HUGE"
+},
+{
+offset: 0,
+length: 12,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "fmefd",
+text: "Discover the editorial",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 22,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 22,
+style: "UNDERLINE"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: [ ],
+title: "",
+alt: "",
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ALineBreak-z.jpg",
+timestamp: "1566491811237",
+width: 1200,
+height: 800
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ALineBreak-z.jpg",
+timestamp: "1566491811237",
+width: 1200,
+height: 800
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ALineBreak-z.jpg",
+timestamp: "1566491811237",
+width: 1200,
+height: 800
+}
+},
+{
+type: "image",
+metadata: { },
+link: {
+type: "categoryLink",
+categoryId: "1874504"
+},
+text: {
+blocks: [
+{
+key: "71stv",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "41ntm",
+text: "A New Wave",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 10,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 10,
+style: "FONT-SIZE-HUGE"
+},
+{
+offset: 0,
+length: 10,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "5mrkm",
+text: "Discover the editorial",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 22,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 22,
+style: "UNDERLINE"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: [ ],
+title: "",
+alt: "",
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ANewWave-z.jpg",
+timestamp: "1566491811239",
+width: 1200,
+height: 800
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ANewWave-z.jpg",
+timestamp: "1566491811239",
+width: 1200,
+height: 800
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/slide-ANewWave-z.jpg",
+timestamp: "1566491811239",
+width: 1200,
+height: 800
+}
+}
+],
+autoPagingInSeconds: 3,
+showPageSelector: true,
+showPageHandles: false,
+internalType: "piece-hero-slider",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "2bec569c-e8e2-43ae-b651-4e3ba583230e",
+name: "Sección 4",
+type: "flex",
+children: [
+{
+id: "a689c86a-2ca0-4fc9-9433-c66589d273e8",
+name: "Pieza 4 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "6gb1s",
+text: "Corners",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 7,
+style: "FONT-SIZE-BIG"
+},
+{
+offset: 0,
+length: 7,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "55ae0",
+text: "Compre por temas",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 16,
+style: "TEXT-COLOR-rgb(117,117,117)"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "40pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "1128da9b-b9ff-41fc-a4ae-71484154f4ff",
+name: "Sección 5",
+type: "flex",
+children: [
+{
+id: "714e23d4-8d97-4c64-a77b-ce6eb42a6e8e",
+name: "Pieza 2 - Carrusel de categorías",
+type: "category-slider",
+metadata: {
+children: { }
+},
+numberOfColumns: 1.5,
+spaceBetweenElements: "10pt",
+initialOffset: "20pt",
+callToActionText: null,
+viewAllCategoryId: null,
+views: [
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1920038"
+},
+text: {
+blocks: [
+{
+key: "d15n5",
+text: "Jogging",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-Jogging-z.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-Jogging-z.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-Jogging-z.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1920038"
+},
+text: {
+blocks: [
+{
+key: "7f9r1",
+text: "Back to the City",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/cornersBackToCityZ_2.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/cornersBackToCityZ_2.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/cornersBackToCityZ_2.jpg",
+timestamp: "1566491811241",
+width: 840,
+height: 560
+}
+},
+{
+isDouble: false,
+link: {
+type: "categoryLink",
+categoryId: "1751045"
+},
+text: {
+blocks: [
+{
+key: "ba35t",
+text: "Personal Tailoring",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-PersonalTailoring-z.jpg",
+timestamp: "1566491811242",
+width: 840,
+height: 560
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-PersonalTailoring-z.jpg",
+timestamp: "1566491811242",
+width: 840,
+height: 560
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/corners-PersonalTailoring-z.jpg",
+timestamp: "1566491811242",
+width: 840,
+height: 560
+}
+}
+],
+styles: { },
+internalType: "piece-category-slider",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "16pt",
+marginLeft: "0pt",
+marginBottom: "16pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "6cb79910-3987-4db1-9b12-266a4c458df0",
+name: "Sección 28",
+type: "flex",
+children: [
+{
+id: "b66ed3df-82c5-400a-ba78-c207da42fad7",
+name: "Pieza 30 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: null,
+buttons: null,
+title: null,
+alt: null,
+styles: {
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/01-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 196
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/01-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 196
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/01-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 196
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "16pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "8abfff2e-c14e-4c9b-a098-a6ebfec34700",
+name: "Sección 30",
+type: "flex",
+children: [
+{
+id: "4c347951-b3e5-4f67-bbb8-12b0e08ac961",
+name: "Pieza 31 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: null,
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/02Z_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 179
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/02Z_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 179
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/02Z_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 179
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "228c6ed3-ae82-4935-a5df-fcd91b3affe2",
+name: "Sección 31",
+type: "flex",
+children: [
+{
+id: "d7148799-df8f-4e45-b2cd-209f6bc468de",
+name: "Pieza 32 - Carrusel",
+type: "slider",
+slides: [
+{
+type: "image",
+metadata: { },
+link: null,
+buttons: [ ],
+title: "",
+alt: "",
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/3CampaignZ_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/3CampaignZ_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/3CampaignZ_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+}
+},
+{
+type: "image",
+metadata: { },
+link: null,
+buttons: [ ],
+title: "",
+alt: "",
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/04-runway-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/04-runway-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/04-runway-z.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+}
+},
+{
+type: "image",
+metadata: { },
+link: null,
+buttons: [ ],
+title: "",
+alt: "",
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/05-collection-men-z1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/05-collection-men-z1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/05-collection-men-z1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 927
+}
+}
+],
+autoPagingInSeconds: 3,
+showPageSelector: true,
+showPageHandles: false,
+internalType: "piece-hero-slider",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "f160ae5c-3748-4e4d-9e59-06300401854e",
+name: "Sección 32",
+type: "flex",
+children: [
+{
+id: "03807db5-72f5-4a8c-a99a-a5704edbe847",
+name: "Pieza 33 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: null,
+buttons: null,
+title: null,
+alt: null,
+styles: {
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/06CnZNegro_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 68
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/06CnZNegro_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 68
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/06CnZNegro_1.jpg",
+timestamp: "1566491811242",
+width: 750,
+height: 68
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "4750f984-1be9-4d64-ad6b-2ededbc5e756",
+name: "Sección 23",
+type: "flex",
+children: [
+{
+id: "322ce8cc-2132-44ac-b053-66b4e8488ea8",
+name: "Pieza 27 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "5186r",
+text: "We Recommend...",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 15,
+style: "FONT-SIZE-BIG"
+},
+{
+offset: 0,
+length: 15,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "7h0us",
+text: "Descubra qué ponerse hoy",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 24,
+style: "TEXT-COLOR-rgb(117,117,117)"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "40pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "4bb34b3c-9d4b-42ca-9722-f4b730b6cee0",
+name: "Sección 6",
+type: "flex",
+children: [
+{
+id: "e0b81b1d-6617-4a86-b752-fd9551d82811",
+name: "Pieza 6 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "categoryLink",
+categoryId: "680513"
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosLeatherJacketsZ_1.jpg",
+timestamp: "1566491811243",
+width: 1200,
+height: 675
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosLeatherJacketsZ_1.jpg",
+timestamp: "1566491811243",
+width: 1200,
+height: 675
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosLeatherJacketsZ_1.jpg",
+timestamp: "1566491811243",
+width: 1200,
+height: 675
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "16pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "773046e1-8f88-4ed5-a93f-f444539d60a1",
+name: "Sección 7",
+type: "flex",
+children: [
+{
+id: "be60e5bd-3a8b-4344-9eca-a8a4bec52409",
+name: "Pieza 7 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "5q1u3",
+text: "A wardrobe staple:",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 18,
+style: "BACKGROUND-COLOR-rgb(245,245,245)"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 18,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "871d7",
+text: "Cazadoras de piel",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 17,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 17,
+key: 1
+}
+],
+data: { }
+},
+{
+key: "5bhdq",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "3i98u",
+text: "Compre ahora",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 12,
+style: "UNDERLINE"
+},
+{
+offset: 0,
+length: 12,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 12,
+key: 2
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "680513"
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "680513"
+}
+},
+2: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "680513"
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#f5f5f5",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "16pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "3b7ee7fd-97f0-4a2a-9d12-f3f6bcd07605",
+name: "Sección 8",
+type: "flex",
+children: [
+{
+id: "0ccc39f1-03ab-4d8b-83ed-395eb61331d0",
+name: "Pieza 8 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "categoryLink",
+categoryId: "911151"
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosCashmereJumpersZ_1.jpg",
+timestamp: "1566491811245",
+width: 1200,
+height: 675
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosCashmereJumpersZ_1.jpg",
+timestamp: "1566491811245",
+width: 1200,
+height: 675
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosCashmereJumpersZ_1.jpg",
+timestamp: "1566491811245",
+width: 1200,
+height: 675
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "4cd3550c-9dcd-4e2c-b8ee-7a34a8d7e538",
+name: "Sección 9",
+type: "flex",
+children: [
+{
+id: "8511c6eb-0b3e-4051-b408-3b4c5b9d0cfc",
+name: "Pieza 7 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "3pflu",
+text: "Premium quality:",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 16,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "b43u1",
+text: "100% Cashmere",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 13,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 13,
+key: 1
+}
+],
+data: { }
+},
+{
+key: "dtgqf",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "78lc5",
+text: "Compre ahora",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 12,
+style: "UNDERLINE"
+},
+{
+offset: 0,
+length: 12,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 12,
+key: 2
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "911151"
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "911151"
+}
+},
+2: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: " 911151"
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#f5f5f5",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "16pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "solid",
+borderWidth: "0px",
+borderColor: "",
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "a2bf6339-cb94-4225-bec6-7606892ab2bf",
+name: "Sección 26",
+type: "flex",
+children: [
+{
+id: "14082815-0e1a-4ff6-8e3b-4573150a80e7",
+name: "Pieza 30 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "categoryLink",
+categoryId: "1350506"
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSneakersZ_1.jpg",
+timestamp: "1566491811247",
+width: 1200,
+height: 675
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSneakersZ_1.jpg",
+timestamp: "1566491811247",
+width: 1200,
+height: 675
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSneakersZ_1.jpg",
+timestamp: "1566491811247",
+width: 1200,
+height: 675
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "5px",
+borderColor: "#ffffff",
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "4517bef8-3667-4e1a-b26f-fcce3b30a1fb",
+name: "Sección 27",
+type: "flex",
+children: [
+{
+id: "d4c76b57-154c-4f45-9eae-457cb3294363",
+name: "Pieza 7 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "2p9eu",
+text: "The edit:",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 9,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "2pd0e",
+text: "Zapatillas Deportivas",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 21,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 21,
+key: 1
+}
+],
+data: { }
+},
+{
+key: "cb9ft",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "3aqld",
+text: "Compre ahora",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 12,
+style: "UNDERLINE"
+},
+{
+offset: 0,
+length: 12,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 12,
+key: 2
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1350506"
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1350506"
+}
+},
+2: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1350506"
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#f5f5f5",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "16pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "034daa16-7010-4f5a-8715-01352d71010c",
+name: "Sección 24",
+type: "flex",
+children: [
+{
+id: "3d2a97c7-47a0-4e9a-b685-583f8d8fc824",
+name: "Pieza 28 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "categoryLink",
+categoryId: "1920037"
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSpecialPricesZ_1.jpg",
+timestamp: "1566491811249",
+width: 1200,
+height: 675
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSpecialPricesZ_1.jpg",
+timestamp: "1566491811249",
+width: 1200,
+height: 675
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/destacadosSpecialPricesZ_1.jpg",
+timestamp: "1566491811249",
+width: 1200,
+height: 675
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "7e488e50-f258-4042-a0a0-f8a60fae9636",
+name: "Sección 25",
+type: "flex",
+children: [
+{
+id: "b4c074a0-713b-4bd6-ba83-2299e7ce562d",
+name: "Pieza 7 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "8ssmo",
+text: "Special Prices:",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 15,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "5c7r5",
+text: "Up to 30% on selected items",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 27,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 27,
+key: 1
+}
+],
+data: { }
+},
+{
+key: "edhfn",
+text: "",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "dph62",
+text: "Compre ahora",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 12,
+style: "UNDERLINE"
+},
+{
+offset: 0,
+length: 12,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 12,
+key: 2
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1920037"
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1920037"
+}
+},
+2: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "categoryLink",
+categoryId: "1920037"
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#f5f5f5",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "16pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "aadee8ee-1b57-4994-90e8-02662f8ce580",
+name: "Sección 10",
+type: "flex",
+children: [
+{
+id: "5244f5a8-4d7e-4cca-acd3-269d8c8e9c17",
+name: "Pieza 27 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "5hmtm",
+text: "#Whattowear",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 11,
+style: "FONT-SIZE-BIG"
+},
+{
+offset: 0,
+length: 11,
+style: "ITALIC"
+},
+{
+offset: 0,
+length: 11,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "2f78s",
+text: "Prendas básicas para el día a día",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 33,
+style: "TEXT-COLOR-rgb(117,117,117)"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "40pt",
+marginLeft: "16pt",
+marginBottom: "8pt",
+marginRight: "16pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "ba89480f-adf3-4d8e-883c-27d58c32acec",
+name: "Sección 11",
+type: "flex",
+children: [
+{
+id: "41c87734-58d2-4a25-8eb6-4381eb762b8f",
+name: "Pieza 11 - Carrusel de productos",
+type: "productCarousel",
+sourceType: "category",
+sourceId: "1864518",
+scrollMode: "pager",
+viewStyle: "double-image",
+pagerStyle: "dot",
+allowSlider: true,
+displayComponentPager: true,
+displayComponentArrows: false,
+numberOfColumns: 1,
+numberOfRows: 1,
+maxProducts: 7,
+maxBulletPages: 8,
+showTitle: false,
+displayProductNames: false,
+displayProductPrices: false,
+displayProductAddToCart: false,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+spaceBetweenProducts: "6px",
+justifyContent: "spaceEvenly",
+initialOffset: "0pt"
+},
+internalType: "piece-product-carousel",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "10pt",
+marginLeft: "0pt",
+marginBottom: "40pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "47aa4e2a-cb71-4fda-8530-aa51a9ff348e",
+name: "Sección 12",
+type: "flex",
+children: [
+{
+id: "40faf4b2-4f88-4154-b466-972867c37583",
+name: "Sección 13",
+type: "flex",
+children: [
+{
+id: "712f1b9e-213a-4764-8ec1-60b9a9a3ca19",
+name: "Sección 18",
+type: "flex",
+children: [
+{
+id: "fb954a9e-a93b-4f97-89af-a2b791da95df",
+name: "Imagen Paper",
+type: "image",
+metadata: {
+children: { }
+},
+link: null,
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "40pt",
+marginLeft: "120pt",
+marginBottom: "40pt",
+marginRight: "120pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/paper_logo_white.png",
+timestamp: "1566491811252",
+width: 308,
+height: 42
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/paper_logo_white.png",
+timestamp: "1566491811252",
+width: 308,
+height: 42
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/paper_logo_white.png",
+timestamp: "1566491811252",
+width: 308,
+height: 42
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "f9a3b11f-0f6c-4645-9271-baf6cf47b19a",
+name: "Pieza 13 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "2ufok",
+text: "Chapter 42",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 10,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 10,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "9g0cl",
+text: "New Vibes",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 9,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 9,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "32pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+},
+{
+id: "6409a85a-28ff-4071-8419-c52f69810c03",
+name: "Pieza 14 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/soft-collection/",
+hasNavigation: true
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperMainChapter42Z_1.jpg",
+timestamp: "1566491811253",
+width: 1200,
+height: 1200
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperMainChapter42Z_1.jpg",
+timestamp: "1566491811253",
+width: 1200,
+height: 1200
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperMainChapter42Z_1.jpg",
+timestamp: "1566491811253",
+width: 1200,
+height: 1200
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+},
+{
+id: "e03660ef-84d6-42ee-ba48-8df1146f23b4",
+name: "Sección 14",
+type: "flex",
+children: [
+{
+id: "f4ddd08e-3e69-4463-bbb8-98f1ec1f904d",
+name: "Pieza 30 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "a957j",
+text: "Soft Pieces",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 11,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "4rdov",
+text: "Men's collection",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 16,
+key: 1
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/soft-collection/",
+hasNavigation: true
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/soft-collection/",
+hasNavigation: true
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#ffffff",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "8pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "46f1c09a-c3a1-4d20-a074-eb1130ffa3c0",
+name: "Sección 15",
+type: "flex",
+children: [
+{
+id: "3da3024c-f2cc-43b4-b975-6b0c16938f9b",
+name: "Sección 16",
+type: "flex",
+children: [
+{
+id: "dfb50393-4235-472d-a20d-2184f304f2b8",
+name: "Pieza 17 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/les-rancontres-de-la-photographie-arles-2019/",
+hasNavigation: true
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "4pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperSec1Chapter42Z_1.jpg",
+timestamp: "1566491811255",
+width: 600,
+height: 800
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperSec1Chapter42Z_1.jpg",
+timestamp: "1566491811255",
+width: 600,
+height: 800
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paperSec1Chapter42Z_1.jpg",
+timestamp: "1566491811255",
+width: 600,
+height: 800
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+},
+{
+id: "47bfcdd2-f131-46d8-ac82-7f633bf7c7a9",
+name: "Pieza 19 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "6snul",
+text: "Les Rencontres",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 14,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "8ha8j",
+text: "D'Arles. Escape",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 15,
+key: 1
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/les-rancontres-de-la-photographie-arles-2019/",
+hasNavigation: true
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/les-rancontres-de-la-photographie-arles-2019/",
+hasNavigation: true
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#ffffff",
+marginTop: "0pt",
+marginLeft: "16pt",
+marginBottom: "0pt",
+marginRight: "4pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "column",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "3bfd9bb2-60e4-49f9-8c1b-100c8325c678",
+name: "Sección 17",
+type: "flex",
+children: [
+{
+id: "40035af9-0f01-478f-9218-5cbfd174b9ed",
+name: "Pieza 18 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/new-wave-the-film/",
+hasNavigation: true
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "4pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paper-sec2-chapter42-z.jpg",
+timestamp: "1566491811256",
+width: 600,
+height: 800
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paper-sec2-chapter42-z.jpg",
+timestamp: "1566491811256",
+width: 600,
+height: 800
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsPre/assets/uploads/paper-sec2-chapter42-z.jpg",
+timestamp: "1566491811256",
+width: 600,
+height: 800
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+},
+{
+id: "6fa83068-ef3b-4a5a-8316-38027548bd95",
+name: "Pieza 19 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "n7t6",
+text: "A New Wave",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 10,
+key: 0
+}
+],
+data: { }
+},
+{
+key: "bo4pr",
+text: "The Film",
+type: "unstyled",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [
+{
+offset: 0,
+length: 8,
+key: 1
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/new-wave-the-film/",
+hasNavigation: true
+}
+},
+1: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/en/new-wave-the-film/",
+hasNavigation: true
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: "#ffffff",
+marginTop: "0pt",
+marginLeft: "4pt",
+marginBottom: "0pt",
+marginRight: "16pt",
+paddingTop: "16pt",
+paddingLeft: "16pt",
+paddingBottom: "16pt",
+paddingRight: "16pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "column",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "07ea431a-6d6b-4b9a-9451-1812172c4c9e",
+name: "Pieza 21 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "8gn9p",
+text: "",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [ ],
+entityRanges: [ ],
+data: { }
+},
+{
+key: "efpqv",
+text: "Prendas básicas para el día a día",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 33,
+style: "TEXT-COLOR-rgb(255,255,255)"
+},
+{
+offset: 0,
+length: 33,
+style: "UNDERLINE"
+},
+{
+offset: 0,
+length: 33,
+style: "BOLD"
+}
+],
+entityRanges: [
+{
+offset: 0,
+length: 33,
+key: 0
+}
+],
+data: { }
+}
+],
+entityMap: {
+0: {
+type: "LINK",
+mutability: "MUTABLE",
+data: {
+type: "externalLink",
+src: "https://social.massimodutti.com/paper/",
+hasNavigation: true
+}
+}
+}
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "10pt",
+marginLeft: "0pt",
+marginBottom: "20pt",
+marginRight: "0pt",
+paddingTop: "10pt",
+paddingLeft: "0pt",
+paddingBottom: "10pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "center",
+alignContent: "center",
+flexDirection: "column",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+}
+],
+styles: {
+backgroundColor: "#414537",
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "0c243f63-cbe7-4aeb-9f37-c72da55a2e2c",
+name: "Sección 21",
+type: "flex",
+children: [
+{
+id: "f5a4e63a-3b1f-431b-b871-1bcc2f94a242",
+name: "Pieza 25 - Texto",
+type: "text",
+metadata: {
+children: { }
+},
+text: {
+blocks: [
+{
+key: "d2hef",
+text: "Nuestras Tiendas",
+type: "align-center",
+depth: 0,
+inlineStyleRanges: [
+{
+offset: 0,
+length: 16,
+style: "FONT-SIZE-BIG"
+},
+{
+offset: 0,
+length: 16,
+style: "BOLD"
+}
+],
+entityRanges: [ ],
+data: { }
+}
+],
+entityMap: { }
+},
+buttons: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px",
+textPositionVertical: "middle"
+},
+internalType: "piece-text",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "40pt",
+marginLeft: "20pt",
+marginBottom: "20pt",
+marginRight: "20pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+},
+{
+id: "60933cff-a88d-4402-a787-da1b06e192d3",
+name: "Sección 22",
+type: "flex",
+children: [
+{
+id: "258f30c9-8719-4fbd-ad03-3116eca54a78",
+name: "Pieza 26 - Imagen",
+type: "image",
+metadata: {
+children: { }
+},
+link: {
+type: "appSectionLink",
+section: "storeLocator"
+},
+buttons: null,
+title: null,
+alt: null,
+styles: {
+backgroundColor: null,
+marginTop: "0pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+image: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/stores-z.jpg",
+timestamp: "1566491811263",
+width: 1200,
+height: 800
+},
+landscapeImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/stores-z.jpg",
+timestamp: "1566491811263",
+width: 1200,
+height: 800
+},
+portraitImage: {
+path: "https://axpreeccnginx2.central.inditex.grp/13/cmsCore/assets/uploads/stores-z.jpg",
+timestamp: "1566491811263",
+width: 1200,
+height: 800
+},
+internalType: "piece-image",
+layout: {
+flexGrow: 1,
+flexShrink: 1,
+flexBasis: "auto",
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null,
+responsiveConfig: [
+{
+id: "(min-width: 1800px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 1200px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+},
+{
+id: "(min-width: 600px)",
+alignSelf: "stretch",
+flexBasis: "auto",
+flexGrow: 1,
+flexShrink: 1,
+minWidth: null,
+width: "auto",
+maxWidth: null,
+minHeight: null,
+height: "auto",
+maxHeight: null
+}
+]
+}
+}
+],
+styles: {
+backgroundColor: null,
+marginTop: "20pt",
+marginLeft: "0pt",
+marginBottom: "0pt",
+marginRight: "0pt",
+paddingTop: "0pt",
+paddingLeft: "0pt",
+paddingBottom: "0pt",
+paddingRight: "0pt",
+borderStyle: "none",
+borderWidth: "0px",
+borderColor: null,
+borderRadius: "0px"
+},
+layout: {
+justifyContent: "center",
+alignItems: "start",
+alignContent: "stretch",
+flexDirection: "row",
+flexWrap: "nowrap"
+},
+internalType: "slice-flex"
+}
+],
+styles: {
+backgroundColor: null
+},
+internalType: "layout-full-width"
+}
+}
+}
+],
+metadata: {
+build: {
+date: "2019-08-22T16:36:51Z",
+cmsVersion: "1.12.0"
+}
+}
+}
